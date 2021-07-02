@@ -1,15 +1,39 @@
+body, html {
+	background-color: #f3f3f3;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cv {
+	width: 29.7cm;
+	height: 21cm;
+}
+
 .clear {
 	clear: both;
 }
 
 #headshot {
+	border-radius: 50px;
+	margin: 2px;
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
 }
 
+.title {
+	font-family: 'Rokkitt', sans-serif;
+}
+
+.mainDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 #name {
-	float: left;
+	color:#444444;
+	width: 400px;
 }
 
 #contactDetails {
@@ -17,11 +41,58 @@
 }
 
 .sectionTitle {
+	color: #cf8a05;
+	margin: 1px;
 	float: left;
 	width: 25%;
+	font-style: italic;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.subDetails , .title {
+	color: #444444;
+}
+
+.subDetails{
+	font-style: italic;
+}
+
+.img {
+	border-radius: 100px;
+}
+
+img {
+	width: 200px;
+	max-width: 200px;
+}
+
+#mainBorder {
+	border: none;
+	border-bottom:2px solid #cf8a05;
+
+}
+
+hr  {
+	border-bottom-color: #dedede;
+}
+
+.keySkills {
+	column-count: 3;
+}
+
+li {
+	list-style: none;
+}
+
+
+a, li {
+	color: #181818;
+}
+
+a {
+	text-decoration: none;
 }

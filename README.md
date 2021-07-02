@@ -5,7 +5,7 @@
 Para esta atividade, você precisará atualizar as regras em `style.css` para conseguir um currículo que se pareça com o do arquivo `mock_up.pdf`.
 
 A única coisa que nós fizemos por você neste nível foi o alinhamento. Você terá que descobrir todo o resto por conta própria!
-
+8u;
 ## Fontes
 Para as tags body e html, você pode utilizar as seguintes fontes: `'Lato'`, `'Helvetica'` e `'Arial'`, juntamente com o `sans-serif` por padrão. Exemplo: `<nome-fonte>, **sans-serif**`
 
